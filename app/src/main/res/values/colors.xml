@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Backgrounds -->
+    <color name="bg_dark">#0D0D1A</color>
+    <color name="surface">#16213E</color>
+    <color name="surface_elevated">#1A2440</color>
+    <color name="key_bg">#1E1E3F</color>
+    <color name="key_pressed">#00D4FF</color>
+
+    <!-- Accent -->
+    <color name="accent">#00D4FF</color>
+    <color name="accent_dark">#0094B3</color>
+    <color name="purple">#7B2FBE</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#8892B0</color>
+
+    <!-- Status indicators -->
+    <color name="status_connected">#00FF88</color>
+    <color name="status_advertising">#FFD600</color>
+    <color name="status_disconnected">#FF3366</color>
+</resources>

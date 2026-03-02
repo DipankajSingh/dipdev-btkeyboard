@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">BT Keyboard</string>
+
+    <!-- Status labels -->
+    <string name="status_idle">Disconnected</string>
+    <string name="status_advertising">Advertising…</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_error">Error</string>
+
+    <!-- Buttons -->
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_paste">Paste &amp; Send</string>
+    <string name="btn_disconnect">Disconnect</string>
+    <string name="btn_bt_off">BT Off</string>
+
+    <!-- Text input -->
+    <string name="hint_text_input">Type text to send…</string>
+    <string name="label_send_text">Send Text</string>
+
+    <!-- Key strip groups -->
+    <string name="tab_special">Special</string>
+    <string name="tab_function">Fn Keys</string>
+    <string name="tab_media">Media</string>
+
+    <!-- Onboarding – Page 1 -->
+    <string name="onboard_1_title">Your Phone, Your Keyboard</string>
+    <string name="onboard_1_body">Turn any Android phone into a full Bluetooth keyboard for your PC, Mac, or smart TV — no cables, no dongles.</string>
+
+    <!-- Onboarding – Page 2 -->
+    <string name="onboard_2_title">How It Works</string>
+    <string name="onboard_2_step1">1. Enable Bluetooth on both devices</string>
+    <string name="onboard_2_step2">2. Tap Start and pair from your computer</string>
+    <string name="onboard_2_step3">3. Start typing — instantly!</string>
+
+    <!-- Onboarding – Page 3 -->
+    <string name="onboard_3_title">Bluetooth Access Needed</string>
+    <string name="onboard_3_body">BT Keyboard needs Bluetooth permission to discover nearby devices and connect as a keyboard. No data is collected or sent anywhere.</string>
+    <string name="onboard_btn_grant">Grant &amp; Continue</string>
+    <string name="onboard_btn_skip">Skip</string>
+    <string name="onboard_btn_next">Next</string>
+    <string name="onboard_btn_getstarted">Get Started</string>
+
+    <!-- Permission screen -->
+    <string name="perm_title_needed">Bluetooth Permission Required</string>
+    <string name="perm_body_needed">BT Keyboard needs Bluetooth access to advertise as a HID keyboard and connect to your device.</string>
+    <string name="perm_btn_grant">Grant Permission</string>
+
+    <string name="perm_title_denied">Permission Denied</string>
+    <string name="perm_body_denied">You\'ve denied the Bluetooth permission. BT Keyboard cannot function without it. Please grant it to continue.</string>
+    <string name="perm_btn_retry">Try Again</string>
+
+    <string name="perm_title_permanent">Permission Blocked</string>
+    <string name="perm_body_permanent">Bluetooth permission is permanently blocked. Open App Settings to grant it manually.</string>
+    <string name="perm_btn_settings">Open Settings</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_bluetooth_icon">Bluetooth icon</string>
+    <string name="cd_keyboard_icon">Keyboard icon</string>
+    <string name="cd_status_dot">Connection status indicator</string>
+</resources>
