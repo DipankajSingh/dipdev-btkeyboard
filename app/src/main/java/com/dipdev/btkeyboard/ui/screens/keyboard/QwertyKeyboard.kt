@@ -24,6 +24,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.ripple
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -388,7 +389,7 @@ fun Modifier.repeatingClickable(
     val currentClickListener by rememberUpdatedState(onClick)
 
     this
-        .indication(interactionSource, androidx.compose.material.ripple.rememberRipple())
+        .indication(interactionSource, ripple())
         .pointerInput(interactionSource, enabled) {
             coroutineScope {
                 awaitEachGesture {
